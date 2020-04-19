@@ -15,7 +15,7 @@ from sandman2.exception import (
     ServerErrorException,
     ServiceUnavailableException,
     )
-from sandman2.service import Service
+from sandman2.directus_service import DirectusService as Service
 from sandman2.model import db, Model, AutomapModel
 from sandman2.admin import CustomAdminView
 from flask_admin import Admin
